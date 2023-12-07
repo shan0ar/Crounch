@@ -2,16 +2,24 @@
 
 ## Usage :
 python crounch _keyword_to_generate_
+
 **OR**
+
 python crounch _keyword_to_generate_ --number=_max_of_word_in_wordlist_
+
 **OR**
+
 python crounch _keyword_to_generate_ --number=_max_of_word_in_wordlist_ --output=_output_location_
 
 examples :
 python crounch Password123
+
 **OR**
+
 python crounch Password123 --number=10000
+
 **OR**
+
 python crounch Password123 --number=9000000 --output=/tmp/crounch_output.dic
 
 
